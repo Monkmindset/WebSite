@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Business Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Your Business</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="catalog.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="portfolio-page">
+        <section class="portfolio-header">
+            <h1>Our Portfolio</h1>
+            <div class="search-container">
+                <input type="text" id="portfolio-search" placeholder="Search projects...">
+                <div class="filter-tags">
+                    <button class="filter-tag active" data-filter="all">All</button>
+                    <button class="filter-tag" data-filter="web">Web</button>
+                    <button class="filter-tag" data-filter="design">Design</button>
+                    <button class="filter-tag" data-filter="content">Content</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-grid">
+            <div class="portfolio-item" data-category="web">
+                <img src="images/placeholder-1.jpg" alt="Project 1">
+                <div class="portfolio-info">
+                    <h3>E-commerce Website</h3>
+                    <p>Modern online store with seamless user experience</p>
+                    <span class="tag">Web Development</span>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="design">
+                <img src="images/placeholder-2.jpg" alt="Project 2">
+                <div class="portfolio-info">
+                    <h3>Brand Identity</h3>
+                    <p>Complete brand redesign for a tech startup</p>
+                    <span class="tag">Design</span>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="content">
+                <img src="images/placeholder-3.jpg" alt="Project 3">
+                <div class="portfolio-info">
+                    <h3>Content Strategy</h3>
+                    <p>Social media content strategy and implementation</p>
+                    <span class="tag">Content Creation</span>
+                </div>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@yourbusiness.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Business. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html> 
